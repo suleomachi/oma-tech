@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+  color: #111;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* NAV */
+.nav {
+  background: #ffffff;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0a2540, #0f3b63);
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  opacity: .9;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  opacity: .8;
+}
+
+/* BUTTONS */
+.btn-primary,
+.btn-outline {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #ffd23f;
+  color: #111;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+  padding: 40px 0;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* LEARN SECTION */
+.learn {
+  padding: 50px 0;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
+
+/* CURRICULUM */
+.curriculum {
+  padding: 50px 0;
+}
+
+.modules .module {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.modules h3 {
+  cursor: pointer;
+}
+
+.modules .content {
+  display: none;
+  margin-top: 8px;
+}
+
+/* PRICING */
+.pricing {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.price-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  width: 400px;
+  margin: auto;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .price-box {
+    width: 100%;
+  }
+}

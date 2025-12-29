@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full-Stack Web Development Training</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="nav">
+    <div class="container">
+      <h2 class="logo">MyCourse Academy</h2>
+      <a href="#enroll" class="btn-primary">Enroll Now</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Full-Stack Web Development Training Program</h1>
+      <p class="subtitle">
+        Learn HTML, CSS, JavaScript, React, Node.js & MongoDB — and build real-world projects from scratch.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#enroll" class="btn-primary">Join The Program</a>
+        <a href="#curriculum" class="btn-outline">View Curriculum</a>
+      </div>
+
+      <p class="tagline">Beginner Friendly • Practical • Job-Ready Skills</p>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights">
+    <div class="container grid-4">
+      <div class="card">📚 12+ Real Projects</div>
+      <div class="card">👨‍🏫 Mentorship Support</div>
+      <div class="card">💼 Portfolio & Internship Prep</div>
+      <div class="card">📜 Certificate of Completion</div>
+    </div>
+  </section>
+
+  <!-- What You Will Learn -->
+  <section class="learn">
+    <div class="container">
+      <h2>What You Will Learn</h2>
+
+      <div class="grid-2">
+        <ul class="list">
+          <li>✔ Responsive Web Design</li>
+          <li>✔ HTML, CSS & Flexbox</li>
+          <li>✔ JavaScript & ES6</li>
+          <li>✔ React & Components</li>
+        </ul>
+
+        <ul class="list">
+          <li>✔ Node.js & Express</li>
+          <li>✔ REST APIs</li>
+          <li>✔ MongoDB & Mongoose</li>
+          <li>✔ Deployment & Git</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum -->
+  <section id="curriculum" class="curriculum">
+    <div class="container">
+      <h2>Course Curriculum</h2>
+
+      <div class="modules">
+
+        <div class="module">
+          <h3 onclick="toggleModule(this)">Module 1 — HTML & CSS Basics</h3>
+          <p class="content">
+            Structure, layout, typography, forms, responsive design principles.
+          </p>
+        </div>
+
+        <div class="module">
+          <h3 onclick="toggleModule(this)">Module 2 — JavaScript & DOM</h3>
+          <p class="content">
+            Functions, arrays, events, API calls, real-world mini-projects.
+          </p>
+        </div>
+
+        <div class="module">
+          <h3 onclick="toggleModule(this)">Module 3 — React & Components</h3>
+          <p class="content">
+            Hooks, state, props, reusable components, routing & SPA.
+          </p>
+        </div>
+
+        <div class="module">
+          <h3 onclick="toggleModule(this)">Module 4 — Backend & Database</h3>
+          <p class="content">
+            Node.js, Express, MongoDB, authentication & CRUD apps.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="enroll" class="pricing">
+    <div class="container">
+      <h2>Enrollment & Pricing</h2>
+
+      <div class="price-box">
+        <h3>Full-Stack Dev Training</h3>
+        <p class="amount">₦50,000</p>
+        <p class="note">Installment & online learning available</p>
+
+        <a href="#" class="btn-primary">Enroll Now</a>
+        <a href="#" class="btn-outline">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 MyCourse Academy — All Rights Reserved</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
